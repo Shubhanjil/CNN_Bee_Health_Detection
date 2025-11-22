@@ -1,0 +1,10 @@
+body {font-family: Arial, sans-serif; background:#f7f9fc; margin:0; padding:0;}
+.container {max-width: 560px; margin:40px auto; text-align:center; padding:20px; background:#fff; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.1);}
+h1 {margin-bottom:20px; color:#333;}
+.upload-box {border:3px dashed #aaa; border-radius:12px; padding:40px; cursor:pointer; transition:.2s;}
+.upload-box:hover {border-color:#555;}
+.preview img {max-width:100%; border-radius:8px; margin-top:15px;}
+button {margin-top:15px; padding:10px 24px; font-size:1rem; background:#007bff; color:#fff; border:none; border-radius:6px; cursor:pointer;}
+button:disabled {background:#aaa; cursor:not-allowed;}
+.result {margin-top:20px; font-size:1.1rem;}
+.hidden {display:none;}
