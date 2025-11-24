@@ -3,22 +3,22 @@ Convolutional Neural Network (CNN) model to classify honey bee images as either 
 
 ## Step-by-Step Implementation Guide
 ### Step 1: Environment Setup
-Open Google Colab in your browser
-Create a new notebook
-Ensure GPU acceleration is enabled in notebook settings
-Install required packages using pip
+Open Google Colab in your browser<br>
+Create a new notebook<br>
+Ensure GPU acceleration is enabled in notebook settings<br>
+Install required packages using pip<br>
 
 ### Step 2: Data Acquisition
-Access the Kaggle dataset through the kagglehub library
-Download the "Honey Bee Annotated Images" dataset
-Verify dataset download and explore the file structure
-Check the CSV file containing image labels and health status
+Access the Kaggle dataset through the kagglehub library<br>
+Download the "Honey Bee Annotated Images" dataset<br>
+Verify dataset download and explore the file structure<br>
+Check the CSV file containing image labels and health status<br>
 
 ### Step 3: Data Preparation
-Create organized directory structure for training and validation data
-Split the dataset into training (80%) and validation (20%) sets
-Copy images to respective directories based on their health labels
-Verify image counts in each directory
+Create organized directory structure for training and validation data<br>
+Split the dataset into training (80%) and validation (20%) sets<br>
+Copy images to respective directories based on their health labels<br>
+Verify image counts in each directory<br>
 
 ### Step 4: Data Preprocessing
 Set up image data generators with augmentation techniques
